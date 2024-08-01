@@ -1,3 +1,50 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.parquet
+
+# Log files
+*.log
+
+# Results
+results/
+
+# Configuration files
+*.ini
+*.yml
+*.yaml
+*.toml
+
+# Documentation
+docs/_build/
+
+# Ignore files that may contain sensitive data
+*.key
+*.pem
+*.p12
+
+# Other
+*.bak
+*.backup
+*.tmp
+*.swp
+
 # History files
 .Rhistory
 .Rapp.history
