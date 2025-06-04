@@ -30,7 +30,7 @@ This project involves bulk RNA-seq analysis of mammary epithelial cells from a C
    cre_len=$(grep -v ">" cre_cds.fa | tr -d '\n' | wc -c)
 
    cat <<EOF > cre.gtf
-   chrCre	Cregene	exon	1	$cre_len	.	+	.	gene_id "Cre"; transcript_id "Cre";
+   chrCre	Cregene	exon	1	$cre_len	.	+	.	gene_id "Cre"; transcript_id "Cre"; gene_biotype "protein_coding";
    EOF
    ```
 
