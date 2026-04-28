@@ -15,7 +15,7 @@ FASTA="$GENOME_DIR/genome_plus_cre.fa"
 GTF="$GENOME_DIR/genes_plus_cre.gtf"
 
 # Define the samplesheet, outdir, workdir, and config
-SAMPLESHEET="samplesheet_rnaseq.csv"
+SAMPLESHEET="params/samplesheet_rnaseq.csv"
 OUTDIR="rnaseq_results"
 WORKDIR="rnaseq_work"
 CONFIG="nextflow.config"
