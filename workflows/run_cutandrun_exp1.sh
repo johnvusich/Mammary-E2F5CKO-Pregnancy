@@ -30,7 +30,7 @@ nextflow run nf-core/cutandrun -r 3.2.2 -profile singularity -resume \
 --seacr_stringent relaxed \
 --blacklist $BLACKLIST \
 --remove_mitochondrial_reads \
---mito_name chrM \
+--mito_name "chrM" \
 --dedup_target_reads \
 -w $WORKDIR \
 -c $CONFIG
