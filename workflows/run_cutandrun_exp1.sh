@@ -16,7 +16,7 @@ GTF="$GENOME_DIR/refGene.gtf.gz"
 BLACKLIST="$GENOME_DIR/mm10-blacklist.v2.Liftover.mm39.bed.txt"
 
 # Define the samplesheet, outdir, workdir, and config
-SAMPLESHEET="samplesheet_cutandrun_exp1.csv"
+SAMPLESHEET="params/samplesheet_cutandrun_exp1.csv"
 OUTDIR="mec_v_pd5_cutandrun_results"
 WORKDIR="mec_v_pd5_cutandrun_work"
 CONFIG="nextflow.config"
